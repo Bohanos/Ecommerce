@@ -1,0 +1,47 @@
+.top-header{
+    display: flex;
+    background-color: orange;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    min-height: 3rem;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.top-header a{
+    color: aliceblue;
+}
+.top-header p{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.top-images{
+    display: flex;
+    width: 87%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    min-height: 15em;
+    background-color: aliceblue;
+    padding: 1%;
+}
+.top-images .images{
+    min-height: 5rem;
+    width: 17%;
+    display: flex;
+    flex-direction: column;
+    transition: 1s ease;
+}
+.top-images .images:hover{
+    transform: translateY(-5px); 
+}
+.top-images .images img{
+    height: 80%;
+    width: 100%;
+}
+.top-images .images p{
+    font-size: 0.95rem;
+}
+.top-images div p a span{
+    text-decoration: line-through;
+}

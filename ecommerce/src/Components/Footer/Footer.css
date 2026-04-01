@@ -1,0 +1,251 @@
+.footer-top{
+    display: flex;
+    background-color: rgb(22, 21, 21);
+    height: auto;
+    justify-content: space-between;
+    padding: 2% 0 0 0;
+    margin-top: 3%;
+}
+.jumia, .app{
+    width: 30%;
+    min-height: 10rem;
+}
+.app{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+ .new-to-jumia{
+    width: 35%;
+    min-height: 10rem;
+    color: white;
+ }
+.jumia{
+    display: flex;
+    justify-content: center;
+}
+.jumia p{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white
+}
+.jumia-star{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(207, 142, 22);
+    width: 9%;
+    height: 2.3rem;
+    border-radius: 2rem;
+}
+.jumia-star2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 9%;
+    height: 2.3rem;
+    border-radius: 3rem;
+}
+.new-to-jumia p a{
+    color: orangered;
+}
+.agreement{
+    display: flex;
+}
+.new-to-jumia .agreement input{
+    width: 1rem;
+    height: 1rem;
+}
+.new-to-jumia .agreement p{
+    color: rgb(182, 173, 173);
+}
+.input-button{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.input-field{
+    display: flex;
+    border: 2px solid orange;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    min-height: 2rem;
+    padding: 1%;
+}
+.input-field span{
+    color: rgb(192, 139, 78);
+    font-size: 2.3rem;
+    margin-top: 0.5rem;
+}
+.input-field input{
+    height: 2rem;
+    border: none;
+    outline: none;
+}
+.input-button button{
+    min-height: 4rem;
+    width: 20%;
+    border: 1px solid silver;
+    background-color: transparent;
+    color: rgb(177, 172, 172);
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.download{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+}
+.download p{
+    color: rgb(255, 255, 255);;
+}
+.download p span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.store-google{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    height: auto;
+    margin-top: 2rem;
+}
+.app-store{
+    display: flex;
+    width: 50%;
+}
+.app-store p {
+    color: white;
+    font-size: 0.5rem;
+}
+.app-store p a{
+    color: white;
+}
+.app-store p span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.google-play{
+    display: flex;
+    width: 50%;
+}
+.google-play p{
+    color: white;
+    font-size: 0.5rem;
+}
+.google-play p a{
+    color: white;
+}
+.google-play p span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 20rem;
+    background-color: rgb(75, 72, 72);
+    padding: 2% 2% 0 7%;
+}
+.footer-bottom .sections{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 22%;
+    height: auto;
+}
+.sections p{
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+.footer-bottom .sections a{
+    color: aliceblue;
+    font-size: 0.9rem;
+}
+.footer-bottom .sections a:hover{
+    text-decoration: underline;
+}
+.join-icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 1.5rem;
+}
+.footer-bottom .sections .join-icons a{
+    font-size: 1.4rem;
+    color: white;
+}
+.footer-bottom .sections .join-icons a:hover{
+    color: rgb(207, 142, 22);
+}
+.adidas-nike{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 1.5rem;
+}
+.footer-bottom .sections .adidas-nike a{
+    font-size: 0.7rem;
+}
+.hr{
+    width: 100%;
+    min-height: 5rem;
+    background-color: rgb(75, 72, 72);
+    padding: 2% 2% 0 7%;
+    min-height: 9rem;
+}
+.hr hr{
+    border: 1px solid rgb(100, 98, 98);
+    margin-top: 2rem;
+}
+.hr div{
+    margin-top: 2rem;
+}
+.hr div a{
+    color: antiquewhite;
+}
+.hr div a:hover{
+    color: rgb(190, 135, 32);
+}
+.shield-star{
+    width: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.shield-star div a i{
+    font-size: 0.9rem;
+} 
+.join-icons2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 1.5rem;
+}
+.footer-bottom .sections .join-icons2 a{
+    font-size: 1.4rem;
+    color: white;
+}
+.footer-bottom .sections .join-icons2 a:hover{
+    color: rgb(207, 142, 22);
+}
+.samsung{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 70%;
+    margin-top: 1.5rem;
+}
+.footer-bottom .sections .samsung a{
+    font-size: 0.9rem;
+}

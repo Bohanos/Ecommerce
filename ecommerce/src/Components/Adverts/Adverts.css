@@ -1,0 +1,24 @@
+.adverts{
+    min-height: 15rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    text-align: center;
+    color: black;
+    width: 87%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    margin-top: 1rem;
+    padding: 0.5%;
+}
+.ads{
+    margin-top: 2rem;
+    width: 13%;
+    height: 10rem;
+    background-position: center;
+    background-size: cover;
+    transition: 1s ease;
+}
+.ads:hover{
+    transform: translateY(-5px);
+}

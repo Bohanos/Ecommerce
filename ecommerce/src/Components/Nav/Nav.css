@@ -1,0 +1,65 @@
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    background-color: #ffffff;
+}   
+.logo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 14%;
+    font-weight: bold;
+    margin-left: 2rem;
+}
+.logo div a p{
+    color: rgb(40, 46, 53);
+}
+.logo p{
+    font-size: 2rem;
+}
+.jumia-star3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    width: 20%;
+    height: 5vh;
+    border-radius: 3rem;
+}
+.jumia-star3 a{
+    font-size: 1.7em;
+    color: #ffffff;
+    display: flex;
+}
+.search{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+input{
+    height: 2.5rem;
+    width: 84%;
+    border: 1px solid black;
+    border-radius: 0.3rem;
+}
+.search a{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    background-color: orange;
+    padding: 1.7%;
+    border-radius: 0.3rem;
+}
+.nav-links{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    margin-right: 2rem;
+}
+.nav-links a{
+    font-size: 0.9em;
+}
